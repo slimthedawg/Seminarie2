@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>The Tasty Recipes</title>
+    <meta charset="utf-8" />
+    <link rel="restsheet" href="resetStyleSheet.css" type="text/css" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+
+  <body class="body">
+    <header class="mainheader">
+      <img src="img/logo.gif" alt="img/logo.gif"/>
+
+      <!-- navigering länkar -->
+      <nav>
+        <ul>
+          <li class="active"><a href="Index.html">Home</a></li>
+          <li><a href="Recipes.html">Recipes</a></li>
+          <li><a href="Calendar.html">Calendar</a></li>
+          <li><a href="About.html">About</a></li>
+        </ul>
+        <form action="login.php" method="POST">
+          <input type="text" name="username" placeholder="Username">
+          <input type="password" name="password" placeholder="Password">
+          <button type="submit" name="login">Login</button>
+        </form>
+      </nav>
+    </header>
+    <a class="registerlink" href="register.html">Register here</a>
+    <!-- huvuddelen av hela hemsidan -->
+    <div class="mainContent">
+      <div class="content">
+        <!-- en artikel top-->
+        <article class="topContent">
+          <!-- huvudet övredel -->
+          <header>
+            <h2><a href="#" title="First Post"></a>Welcome</h2>
+          </header>
+
+          <!--fotnot-->
+          <footer>
+            <p class="post-info">This post is written by Slim the Gravy</p>
+          </footer>
+
+          <!-- content kommer bli text -->
+          <p>
+            Hello and welcome to this webpage about tasty recipes have a great stay and dont forget to check out our panncakes and meatball recipes!
+          </p>
+        </article>
+
+        <!-- en artikel bottom-->
+        <article class="bottomContent">
+          <!-- huvudet övredel -->
+          <header>
+            <h2><a href="#" title="Second Post"></a>User post</h2>
+          </header>
+
+          <!--fotnot-->
+          <footer>
+            <p class="post-info">This post is written by Val teh doe</p>
+          </footer>
+
+          <!-- content kommer bli text -->
+          <p>
+            Thank you mr Slim for offering a great webpage!
+            <br>Yours truely, Mr. Val .D
+          </p>
+        </article>
+      </div>
+    </div>
+  </body>
+</html>

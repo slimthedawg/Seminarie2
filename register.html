@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>The Tasty Recipes</title>
+    <meta charset="utf-8" />
+
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+
+  <body class="body">
+    <header class="mainheader">
+      <img src="img/logo.gif"/>
+
+      <!-- navigering länkar -->
+      <nav>
+        <ul>
+          <li class="active"><a href="Index.html">Home</a></li>
+          <li><a href="#">Recipe</a></li>
+          <li><a href="#">Calendar</a></li>
+          <li><a href="#">About</a></li>
+          <form action="login.php" method="POST">
+            <input type="text" name="username" placeholder="Username">
+            <input type="password" name="password" placeholder="Password">
+            <button type="submit" name="Login">Login</button>
+          </form>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- huvuddelen av hela hemsidan -->
+    <div class="mainContent">
+      <div class="content">
+
+        <!-- en artikel top-->
+        <article class="topContent">
+          <!-- huvudet övredel -->
+          <header>
+            <h2><a href="#" title="First Post"></a>First Post</h2>
+          </header>
+          <content>
+            <form action="signup.php" method="POST">
+              <input type="text" name="firstfame" placeholder="FirstName"><br>
+              <input type="text" name="lastfame" placeholder="LastName"><br>
+              <input type="text" name="uid" placeholder="Username"><br>
+              <input type="password" name="pwd" placeholder="Password">
+              <button type="submit">Sign Up</button>
+            </form>
+          </content>
+        </article>
+      </div>
+    </div>
+  </body>
+</html>
